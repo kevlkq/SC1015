@@ -6,7 +6,7 @@ Our team's objective is to make use of the the Twitch's API to help out small or
 - @Purrsona
 - @iloveangpao
 
-![image](https://user-images.githubusercontent.com/102810962/164954067-f02bca75-5dbb-4495-b3af-2bce64ef6d70.png)
+![image](https://user-images.githubusercontent.com/102810962/164980283-354b5920-5605-4e1f-9aa0-8eecf116c570.png)
 
 ## Tech Stack
 - Data retrieval: Twitch API Platform, XMLHttprequest from twitchtracker.com
