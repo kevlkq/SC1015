@@ -1,5 +1,5 @@
 # SC1015 Mini Project - Twitch.tv
-Our team's objective is to make use of the the Twitch's API to help out small or upcoming streamers on how to be opular on twitch. In our project, we will be extracting data from the most popular streamers and find out what factors propels these streamers to become a twitch superstar. How we will be defining popularity in our project would be through viewer count.
+Our team's objective is to make use of the the Twitch's API to help out small or upcoming streamers on how to be popular on twitch. In our project, we will be extracting data from the most popular streamers and find out what factors propels these streamers to become a twitch superstar. How we will be defining popularity in our project will be through viewer count.
 
 ## Contributors
 - @kevlkq
