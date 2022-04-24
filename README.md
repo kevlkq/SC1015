@@ -26,10 +26,11 @@ The powerpoint provide a summary of our project. It covers problem defintion, mo
 
 ## Jupyter Notebooks
 ### Data Extraction Notebook
-The code in this notebook is used to extract data from the Twitch Api and from the twitch tracker website to form our datasets. First, the general info of the top 1000 streamers were
+The code in this notebook is used to extract data from the Twitch Api and from the twitch tracker website to form our datasets. First, the general info of the top 1000 streamers are extracted. Then, over the course of 2 weeks, live streamers data are retreived via Twitch API hourly through automation. Then, variables such as game name, time started, language, follower count and average hours streamed are modelled to find relations with popularity
 
 
 ### Linear Regression models notebook
+This notebook reads data from General info and does linear regression betwn avg hours and viewer count using sklearn seaborn and pandas.
 
 
 ### Classification models notebook
