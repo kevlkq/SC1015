@@ -37,4 +37,17 @@ This notebook reads data from General_Info.xlsx and constructs a linear regressi
 The notebook reads data from live streams data and finds correlation between game, time streamed and language to viewer count through classification models. It
 iterates thru the viewer count and time extracted column to categorise them according to quartile range and time range respectively. Then the same is done for game name to remove all games that accounted for less than 1 percent of total number of streams. This is to clean up the data. The Naive Bayes model is used to come up with a prediction array after parsing in the train and test values. Finally, a confusion matrix is used to illustrate accuracy. The accuracy results returned were poor and showed that there are no factors that returns true values in predicting popularity.
 
-##
+##Conclusion
+For inital data visualisations, we can see that top games maybe a huge contribution to a streamer's popularity. However, our models and accuracy scores shows that there are no gurantees in becoming popular by playing a popular game. The same can be said for other factors such as time of stream, language and hours streamed. The accuracy scores and explained variances are too low to show strong correlation between these factors to viewer count. Since quantitative analysis shows us weak relations, we concluded that it boils down to the personality of the streamer and how they create content that defines their popularity.
+
+## References
+-www.twitchtracker.com
+-www.twitch.tv
+-https://pandas.pydata.org/docs/reference
+-https://dev.twitch.tv/docs/cli/api-command
+-https://dev.twitch.tv/docs/api/
+-https://tqdm.github.io/docs/tqdm/
+-https://pypi.org/project/fake-useragent/
+-https://scikit-learn.org/stable/
+-https://docs.python.org/3/library/os.path.html
+-https://seaborn.pydata.org/tutorial/categorical.html
