@@ -1,5 +1,5 @@
 # SC1015 Mini Project - Twitch.tv
-Our team's objective is to make use of the the Twitch's API to help out small or upcoming streamers on how to be opular on twitch. In our project, we will be extracting data from the most popular streamers and find out what factors propels these streamers to become a twitch superstar.
+Our team's objective is to make use of the the Twitch's API to help out small or upcoming streamers on how to be opular on twitch. In our project, we will be extracting data from the most popular streamers and find out what factors propels these streamers to become a twitch superstar. How we will be defining popularity in our project would be through viewer count.
 ![image](https://user-images.githubusercontent.com/102810962/164954067-f02bca75-5dbb-4495-b3af-2bce64ef6d70.png)
 ## Tech Stack
 - Data retrieval: Twitch API Platform, XMLHttprequest from twitchtracker.com
@@ -34,10 +34,7 @@ This notebook reads data from General info and does linear regression betwn aver
 
 
 ### Classification models notebook
-The notebook reads data from live streams data and finds correlation between game, time streamed and language to viewer count through classification models. 
-First
-iterated thru the viewer count and time extracted column to categorise them according to quartile range and time range respectively
-Then I did the same for game name to remove all games that accounted for less than 1pct of total number of streams. I replaced them with NaN values and removed all rows containing NaN values to clean up the data
-I separated the columns and label encoded them
-Made use of naive Bayes to come up with a prediction array after parsing in the train values
-Illustrated accuracy using a confusion matrix
+The notebook reads data from live streams data and finds correlation between game, time streamed and language to viewer count through classification models. It
+iterates thru the viewer count and time extracted column to categorise them according to quartile range and time range respectively. Then the same is done for game name to remove all games that accounted for less than 1 percent of total number of streams. This is to clean up the data. The Naive Bayes model is used to come up with a prediction array after parsing in the train and test values. Finally, a confusion matrix is used to illustrate accuracy. The accuracy results returned were poor and showed that there are no factors that returns true values in predicting popularity.
+
+##
