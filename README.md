@@ -30,7 +30,7 @@ The code in this notebook is used to extract data from the Twitch Api and from t
 
 
 ### Linear Regression models notebook
-This notebook reads data from General info and does linear regression betwn avg hours and viewer count using sklearn seaborn and pandas.
+This notebook reads data from General info and does linear regression betwn average hours streamed and viewer count using sklearn seaborn and pandas. Data is first cleaned by removing outliers, then is split into test and train data. Data is first visualised using seaborn, then a linear regression mopdel is fitted on both test and train data. Finally to find out correlation between viewer count and average hours streamed, a goodness of fit test is implmneted, which returns a low explanied variance value, implying lack of correlation.
 
 
 ### Classification models notebook
