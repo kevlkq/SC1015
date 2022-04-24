@@ -34,4 +34,10 @@ This notebook reads data from General info and does linear regression betwn aver
 
 
 ### Classification models notebook
-
+The notebook reads data from live streams data and finds correlation between game, time streamed and language to viewer count through classification models. 
+First
+iterated thru the viewer count and time extracted column to categorise them according to quartile range and time range respectively
+Then I did the same for game name to remove all games that accounted for less than 1pct of total number of streams. I replaced them with NaN values and removed all rows containing NaN values to clean up the data
+I separated the columns and label encoded them
+Made use of naive Bayes to come up with a prediction array after parsing in the train values
+Illustrated accuracy using a confusion matrix
